@@ -1,0 +1,17 @@
+node_modules
+.next
+.env.local
+.env*.local
+.test-build.mjs
+tsconfig.tsbuildinfo
+.vercel
+*.log
+tests/soak-log-*.json
+.env*
+
+# Not for publishing: client pitch, client analysis, internal runbooks
+PROPOSAL.md
+SPEC.md
+DEPLOY.md
+# Example env file is safe (placeholders only)
+!.env.example
