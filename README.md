@@ -1,5 +1,7 @@
 # Press Release Monitor
 
+[![Tests](https://github.com/gchis66/press-monitor/actions/workflows/test.yml/badge.svg)](https://github.com/gchis66/press-monitor/actions/workflows/test.yml)
+
 **Live demo: https://press-monitor-ten.vercel.app**
 
 Watches company newsrooms and emails an alert when a new press release appears. The subject line is the exact headline; the body is a four-sentence summary plus the link.
@@ -73,7 +75,7 @@ npm run dev                    # http://localhost:3000
 ```
 
 ```bash
-npm test                                          # 76 logic assertions, no network
+npm test                                          # 96 logic assertions, no network
 npm run test:live                                 # live suite against a running instance
 BASE_URL=https://your-url.vercel.app npm run test:live
 npm run test:soak                                 # false-positive soak (HOURS and INTERVAL_MIN env)
